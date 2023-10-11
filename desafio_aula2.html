@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(72, 72, 105);
+            font-family: sans-serif;
+            color: #f7e9e9;
+        }
+        table {
+            border-collapse:collapse;
+            width: 100%;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        table td, table th {
+            border: 2px solid #ccc;
+            border-color: rgb(148, 44, 21);
+            padding: 5px;
+            background-color: #608291;
+        }
+
+        table caption {
+            caption-side: top;
+            text-align: center;
+            font-style: italic;
+            font-size: 20px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        thead {
+            background-color: rgb(205, 136, 45);
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            
+            
+        }
+
+        li {
+            padding: 20px;
+            
+        }
+        h1 {
+            
+            background-color: #267bdb;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            font-size: 36px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        
+        }
+        
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+            
+        }
+
+        footer {
+            background-color: #267bdb;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+         #father {
+            color: yellow;
+        }
+
+        #mother {
+            color: aqua;
+        }
+
+        #son {
+            color: blueviolet;
+        }
+
+        #daughter {
+        color: rgb(167, 71, 105);
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <h1>Organização semanal</h1>
+    </header>
+
+    <section>
+        <header>
+            <h2>Membros da familia e sua cores</h2>
+        </header>
+        <ul>
+            <li id="father">Pai</li>
+            <li id="mother">Mãe</li>
+            <li id="son">Filho</li>
+            <li id="daughter">Filha</li>
+        </ul>
+    </section>
+    <section class="tables">
+        <header>
+            <h2>preferências alimentares</h2>
+        </header>
+        <table border="1">
+            <caption>Lista de Compras</caption>
+            <thead>
+                <th colspan="4">Compras da semana</th>
+             
+            </thead>
+            <tr>
+                <td id="daughter">Leite</td>
+                <td id="son">Ovos</td>
+                <td id="father">Pão</td>
+                <td id="son">Arroz</td>
+            </tr>
+            <tr>
+                <td id="father">Feijão</td>
+                <td id="daughter">Massa</td>
+                <td id="father">Carne moída</td>
+                <td id="mother">Frango</td>
+            </tr>
+            <tr>
+                <td id="mother">Peixe</td>
+                <td id="father">Maçãs</td>
+                <td id="daughter">Bananas</td>
+                <td id="son">Laranjas</td>
+            </tr>
+            <tr>
+                <td id="mother">Tomates</td>
+                <td id="mother">Alface</td>
+                <td id="father">Batatas</td>
+                <td id="daughter">Cenouras</td>
+            </tr>
+            <tr>
+                <td id="daughter">Cebolas</td>
+                <td id="son">Chocolate</td>
+                <td id="mother">Alho</td>
+                <td id="father">Temperos naturais</td>
+            </tr>
+        </table>
+    
+    
+    <table>
+        <caption>Cardápio</caption>
+        <thead>
+            <th>Periodo</th>
+            <th>Segunda-feira</th>
+            <th>Terça-feira</th>
+            <th>Quarta-feira</th>
+            <th>Quinta-feira</th>
+            <th>Sexta-feira</th>
+            <th>Sabado</th>
+            <th>Domingo</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Café da manhã</td>
+                <td id="mother">Creepioca</td>
+                <td id="mother">Atum com pão integral</td>
+                <td id="father">Carne moida com cuscuz</td>
+                <td id="daughter">Pão de queijo</td>
+                <td id="father">Vitamina de banana</td>
+                <td id="son">Chocolate quente com misto</td>
+                <td id="son">Torta de maçã</td>
+                
+                
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Almoço</td>
+                <td id="father">Baiao de 2 com carne de sol</td>
+                <td id="mother">Peixe a delicia</td>
+                <td id="father">Bife com arroz a Grelha</td>
+                <td id="mother">Salada com peito de frango</td>
+                <td id="daughter">Panqueca de frango</td>
+                <td id="daughter">Arroz integral com file de peixe</td>
+                <td id="son">Feijoada</td>
+
+                
+            </tr>
+            <tr>
+                <td id="son">Strogonoff de frango</td>
+                <td id="daughter">Lasanha de carne</td>
+                <td id="father">Escondidinho de carne</td>
+                <td id="son">filé com fritas</td>
+                <td id="father">Panelada</td>
+                <td id="mother">Carbonara</td>
+                <td id="father">Churrasco</td>
+                
+                
+
+            </tr>
+            <tr>
+                <td>Lanche da tarde</td>
+                <td id="daughter">Tapioca com franco </td>
+                <td id="son">Pastel de forno</td>
+                <td id="daughter">Paté de frango</td>
+                <td id="mother">Bolo de Chocolate</td>
+                <td id="son">Pão de batata</td>
+                <td id="mother">bolo de laranja</td>
+                <td id="mother">Bolo de cenoura</td>
+            </tr>
+        
+            <tr>
+                <td rowspan="2">Jantar</td>
+                <td id="son">Creme de frango</td>
+                <td id="mother">Patê de Atum</td>
+                <td id="mother">Peixe com salada</td>
+                <td id="mother">Salada com ovo cozido</td>
+                <td id="daughter">Torta de chocolate</td>
+                <td id="father">Feijão verde</td>
+                <td id="son">Salada com peito de frango</td>
+            </tr>
+            <tr>
+                
+                <td id="father">Arroz carreteiro</td>
+                <td id="mother">Fricasse</td>
+                <td id="daughter">Miojo</td>
+                <td id="son">Pizza</td>
+                <td id="son">Hamburguer</td>
+                <td id="daughter">Chocolate quente</td>
+                <td id="father">Pão de alho</td>
+                
+                
+            </tr>
+           
+        </tbody>
+    </table>
+</section>
+<section>
+    <header>
+    <h2>necessidades de afazeres</h2>
+    </header>
+    <table border="1">
+        <caption>Tarefas</caption>
+        <thead>
+            <th id="father">Pai</th>
+            <th id="mother">Mãe</th>
+            <th id="son">Filho</th>
+            <th id="daughter">Filha</th>
+            
+        </thead>
+        <tr>
+            <td id="father">Peladar</td>
+            <td id="mother">Almocar na casa da mãe</td>
+            <td id="son">Estudar programação</td>
+            <td id="daughter">Jogar uno com pai</td>
+        </tr>
+        <tr>
+            <td id="father">Consertar o carro</td>
+            <td id="mother">Ir ao supermercado</td>
+            <td id="son">Ir para Faculdade</td>
+            <td id="daughter" >ir aula de ciencia</td>
+        </tr>
+        <tr>
+            <td id="father">Treinamento de equipe</td>
+            <td id="mother">Ir ao cinema com amigas</td>
+            <td id="son">Jogar video game</td>
+            <td id="daughter">estudar pra prova de arte</td>
+        </tr>
+        <tr>
+            <td id="father">Pagar o aluguel</td>
+            <td id="mother">Consulta Medica</td>
+            <td id="son">Levar o Dog para banho</td>
+            <td id="daughter">prova de ciencia</td>
+        </tr>
+
+        <tr>
+            <td id="father">Academia</td>
+            <td id="mother">Fazer Yoga</td>
+            <td id="son">Prova da ADA</td>
+            <td id="daughter">Ir para balè</td>
+        </tr>
+        <tr>
+            <td id="father">Jogar bola com amigos</td>
+            <td id="mother">Ir para salão</td>
+            <td id="son">Fazer projeto da ADA</td>
+            <td id="daughter">Brinca na casa da prima</td>
+        </tr>
+       
+    </table>
+    
+    <table>
+    <caption>Dias das semana e suas tarefas</caption>
+    <thead>
+
+        <th>Horario</th>
+        <th>Segunda-feira</th>
+        <th>Terça-feira</th>
+        <th>Quarta-feira</th>
+        <th>Quinta-feira</th>
+        <th>Sexta-feira</th>
+        <th>Sabado</th>
+        <th>Domingo</th>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>06:00 as 08:00</td>
+            <td id="father">Peladar</td>
+            <td id="father">Peladar</td>
+            <td id="father">Peladar</td>
+            <td id="father">Peladar</td>
+            <td id="father">Peladar</td>
+            <td id="father">Consertar o carro</td>
+            <td id="daughter">Brinca na casa da prima</td>
+            
+           
+            
+            
+            
+            
+        </tr>
+        <tr>
+            <td>08:00 as 10:00</td>
+            <td id="mother">Fazer Yoga</td>
+            <td id="mother">Ir ao supermercado</td>
+            <td id="mother">Fazer Yoga</td>
+            <td id="mother">Ir ao supermercado</td>
+            <td id="mother">Fazer Yoga</td>
+            <td id="mother">Almocar na casa da mãe</td>
+            <td id="son">Estudar programação</td>
+            
+            
+            
+            
+        </tr>
+        <tr>
+            <td>10:00 as 12:00</td>
+            <td id="mother">Consulta Medica</td>
+            <td id="daughter">prova de ciencia</td>
+            <td id="father">Pagar o aluguel</td>
+            <td id="daughter" >ir aula de ciencia</td>
+            <td id="daughter" >ir aula de ciencia</td>
+            <td id="daughter" >ir aula de ciencia</td>
+            <td id="son">Estudar programação</td>
+            
+            
+        </tr>
+        <tr>
+            <td>12:00 as 14:00</td>
+            <td id="daughter">Ir para balè</td>
+            <td id="daughter">Ir para balè</td>
+            <td id="daughter">Ir para balè</td>
+            <td id="daughter">Ir para balè</td>
+            <td id="daughter">Ir para balè</td>
+            <td id="son">Levar o Dog para banho</td>
+            <td id="father">Jogar bola com amigos</td>
+            
+
+        </tr>
+        <tr>
+            <td>14:00 as 18:00</td>
+            <td id="son">Ir para Faculdade</td>
+            <td id="son">Ir para Faculdade</td>
+            <td id="son">Ir para Faculdade</td>
+            <td id="mother">Ir para o salão</td>
+            <td id="son">Fazer projeto da ADA</td>
+            <td id="son">Fazer projeto da ADA</td>
+            <td id="daughter">Jogar uno com pai</td>
+
+            
+        </tr>
+        <tr>
+            <td>18:00 as 20:00</td>
+            <td id="father">Treinamento de equipe</td>
+            <td id="father">Treinamento de equipe</td>
+            <td id="father">Treinamento de equipe</td>
+            <td id="father">Treinamento de equipe</td>
+            <td id="father">Treinamento de equipe</td>
+            <td id="son">Prova da ADA</td>
+            <td id="daughter">estudar pra prova de arte</td>
+            
+        </tr>
+        <tr>
+            <td>20:00 as 22:00</td>
+            <td id="father">Academia</td>
+            <td id="father">Academia</td>
+            <td id="father">Academia</td>
+            <td id="father">Academia</td>
+            <td id="father">Academia</td>
+            <td id="mother">Ir ao cinema com amigas</td>
+            <td id="son">Jogar video game</td>
+            
+        </tr>
+       </tbody>
+    </table>
+</section>
+<footer>
+   @Criado por Fabio Lima
+</footer>
+</body>
+</html>
