@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout site</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg" alt="logo-ada"
+                        width="70px">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn">Home</a></li>
+                <li><a href="#title-about" class="menu-btn">Quem somos</a></li>
+                <li><a href="#title-sub" class="menu-btn">Inscrição</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+    </nav>
+    <section class="top">
+        <div class="max-width">
+            <div class="top-content">
+                <div class="text-1">Ajude a Causa</div>
+                <div class="text-2">ONG Pets e Patinha</div>
+                <div class="text-3">Corrida solidaria!</div>
+                <a href="#title-sub">Faça sua Inscrição</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="max-width">
+            <h2 class="title" id="title-about">Quem Somos</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/img_card_01.jpg" alt="Sobre Empresa">
+                </div>
+                <div class="column right">
+                    <div class="text">
+                        A ONG Pets e Patinhas estão ativa mais de 10 anos. Ajudando na adoção do seu futuro amicão.
+                    </div>
+                    <p> Sed laoreet cursus commodo. Quisque pharetra nisl vitae diam egestas lacinia. Integer at arcu ac
+                        turpis blandit ullamcorper at vitae diam. Donec quam est, aliquam non nisl non, feugiat suscipit
+                        eros. Pellentesque condimentum est quam, auctor faucibus velit euismod eget. Nam a diam sed
+                        metus molestie tincidunt. Quisque et aliquet risus. Sed et sem quis massa sagittis feugiat at
+                        sed risus. Sed semper tortor elit.</p>
+                </div>
+            </div>
+    </section>
+    <section class="contact">
+        <div class="max-width">
+            <h2 class="title" id="title-sub">Faça agora sua inscrição</h2>
+            <div class="content-adm">
+                <form action="" class="form-adm">
+                    <div class="row-input">
+                        <div class="column">
+                            <label for="" class="title-input">Nome Completo</label>
+                            <input type="text" name="name" id="name" placeholder="nome completo" class="input-adm">
+                        </div>
+                        <div>
+                            <label for="" class="title-input">Idade</label>
+                            <input type="number" name="number" id="number" placeholder="Informe sua idade"
+                                class="input-adm">
+                        </div>
+                    </div>
+                    <div class="row-input">
+                        <div class="column">
+                            <label for="" class="title-input">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="E-mail Principal" class="input-adm">
+                        </div>
+                        <div>
+                            <label for="" class="title-input">Confirme seu e-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Confirme seu e-mail"
+                                class="input-adm">
+                        </div>
+                    </div>
+                    <div class="row-input">
+                        <div class="column">
+                            <label for="" class="title-input">Tamanho camiseta</label>
+                            <select name="" id="" class="input-adm">
+                                <option value="">P</option>
+                                <option value="">M</option>
+                                <option value="">G</option>
+                                <option value="">GG</option>
+                                <option value="">XG</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row-input">
+                        <div class="column">
+                            <label for="" class="title-input">Categoria de inscrição</label>
+                            <select id="categoria" name="categoria" class="input-adm">
+                                <option value="3RUN">Corrida 3km</option>
+                                <option value="5RUN">Corrida 5km</option>
+                                <option value="4WALK">Caminhada 4km</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row-input">
+                        <div class="column">
+                            <label for="" class="title-input">Valor da Doação</label>
+                            <input type="text" id="valor" name="valor" placeholder="R$ 0,00" class="input-adm">
+                        </div>
+                    </div>
+                    <button type="button" class="btn-sucess">Concluir</button>
+
+
+                </form>
+            </div>
+    </section>
+
+
+
+
+    <footer>
+        <span>Criado por <a href="https://github.com/FABIO3750">Fabio Lima</a></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
